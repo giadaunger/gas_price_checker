@@ -9,20 +9,53 @@ function App() {
         <p className="text-xl">Join our SMS list and get instant alerts when gas prices drop.</p>
         <button className="p-4 bg-blue-500 text-white rounded mt-8 text-xl">Join SMS list!</button>
       </div>
-      <div className="mt-12 w-1/2">
+      <div className="mt-12">
         <h2 className="text-center text-2xl pb-4">Current gas prices</h2>
-        <div className="flex flex-col gap-8">
-            <div className="p-4 bg-blue-300 rounded text-center">
-                <h2 className="text-xl">Gas station</h2>
-                <p className="text-lg">Price</p>
+        <div className="flex flex-row gap-8">
+            <div className="p-4 bg-[#6b7280] rounded text-center">
+                <img src="/St1_logo.png" alt="logo" className="w-40 h-40 rounded-2xl" />
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Bensin</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Disel</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Biogas</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
             </div>
-            <div className="p-4 bg-blue-300 rounded text-center">
-                <h2 className="text-xl">Gas station</h2>
-                <p className="text-lg">Price</p>
+            <div className="p-4 bg-[#6b7280] rounded text-center">
+                <img src="/Circle_k_logo.png" alt="logo" className="w-40 h-40 rounded-2xl" />
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Bensin</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Disel</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Biogas</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
             </div>
-            <div className="p-4 bg-blue-300 rounded text-center">
-                <h2 className="text-xl">Gas station</h2>
-                <p className="text-lg">Price</p>
+            <div className="p-4 bg-[#6b7280] rounded text-center">
+                <img src="/Preem_logo.png" alt="logo" className="w-40 h-40 rounded-2xl" />
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Bensin</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Disel</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
+                <div className="flex flex-row gap-5 p-2 mt-4 shadow-xl bg-[#7b8392] rounded">
+                    <p className="flex justify-center items-center">Biogas</p>
+                    <p className="bg-yellow-600 p-2 rounded ml-auto">pris</p>
+                </div>
             </div>
         </div>
       </div>
