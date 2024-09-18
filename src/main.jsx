@@ -20,7 +20,7 @@ function App() {
       </div>
       <div className="mt-12 p-2 sm:p-0 sm:w-full">
         <h2 className="text-center text-2xl pb-4">Current gas prices</h2>
-        <div className="grid grid-cols-2 gap-4 sm:flex sm:flex-row sm:gap-8 justify-center">
+        <div className="sm:flex sm:flex-row sm:gap-8 justify-center">
           {/* St1 */}
           <div className="relative">
             <div className="p-4 bg-[#6b7280] sm:rounded text-center sm:shadow-2xl">
@@ -33,28 +33,28 @@ function App() {
                 <p className="flex justify-center items-center text-white font-semibold">
                   Bensin
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
                 <p className="flex justify-center items-center text-white font-semibold">
                   Disel
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
                 <p className="flex justify-center items-center text-white font-semibold">
                   Biogas
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
+            <div className="hidden sm:absolute bg-[#606673] w-1/6 mx-auto h-14 sm:h-48 mt-[-10px] z-10"></div>
           </div>
 
           {/* Preem */}
@@ -69,32 +69,32 @@ function App() {
                 <p className="flex justify-center items-center text-white font-semibold">
                   Bensin
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
                 <p className="flex justify-center items-center text-white font-semibold">
                   Disel
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
                 <p className="flex justify-center items-center text-white font-semibold">
                   Biogas
                 </p>
-                <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                <p className="bg-yellow-500 p-1 sm:p-2 rounded ml-auto font-orbitron font-semibold">
+                  12.26:-
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
+            <div className="hidden sm:absolute bg-[#606673] w-1/6 mx-auto h-14 sm:h-48 mt-[-10px] z-10"></div>
           </div>
 
           {/* Circle K */}
-          <div className="col-span-2 sm:col-auto relative">
+          <div className="col-span-2 sm:col-auto relative sm:w-auto mx-auto sm:mx-0">
             <div className="p-4 bg-[#6b7280] sm:rounded text-center sm:shadow-2xl">
               <img
                 src="/Circle_k_logo.png"
@@ -106,7 +106,7 @@ function App() {
                   Bensin
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
@@ -114,7 +114,7 @@ function App() {
                   Disel
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                  12.26:-
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
@@ -122,18 +122,18 @@ function App() {
                   Biogas
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
-                  12.26
+                  12.26:-
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
+            <div className="hidden sm:absolute bg-[#606673] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
           </div>
         </div>
       </div>
       <img
         src="/Grass_banner.webp"
         alt="grass"
-        className="absolute bottom-0 w-full h-32 md:h-40"
+        className="hidden sm:absolute bottom-0 w-full h-32 md:h-40"
       />
     </div>
   );
