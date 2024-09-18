@@ -5,8 +5,12 @@ export default {
       './src/**/*.{js,ts,jsx,tsx}',  // This should cover all your source files
     ],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+            orbitron: ["Orbitron", "sans-serif"],
+            protestGuerrilla: ["Protest Guerrilla", "sans-serif"]
+          },
+      },
     },
     plugins: [],
   };
-  
