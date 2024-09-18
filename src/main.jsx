@@ -3,7 +3,12 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="relative flex flex-col mx-auto justify-center items-center min-h-screen">
+    <div className="relative flex flex-col mx-auto justify-center items-center min-h-screen bg-blue-50">
+      <img
+        src="/Sun.gif"
+        alt="sun banner"
+        className="hidden md:block absolute md:top-10 md:left-10 w-52 h-52 z-10"
+      />
       <div className="text-center pb-4">
         <h2 className="text-4xl pb-2">Save More, Drive Smarter!</h2>
         <p className="text-xl">
