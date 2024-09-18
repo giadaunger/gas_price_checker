@@ -3,7 +3,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="flex flex-col mx-auto justify-center items-center min-h-screen">
+    <div className="relative flex flex-col mx-auto justify-center items-center min-h-screen">
       <div className="text-center pb-4">
         <h2 className="text-4xl pb-2">Save More, Drive Smarter!</h2>
         <p className="text-xl">
@@ -17,7 +17,7 @@ function App() {
         <h2 className="text-center text-2xl pb-4">Current gas prices</h2>
         <div className="grid grid-cols-2 gap-4 sm:flex sm:flex-row sm:gap-8 justify-center">
           {/* St1 */}
-          <div>
+          <div className="relative">
             <div className="p-4 bg-[#6b7280] sm:rounded text-center sm:shadow-2xl">
               <img
                 src="/St1_logo.png"
@@ -33,7 +33,7 @@ function App() {
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
-                <p className="flex justify-center items-center  text-white font-semibold">
+                <p className="flex justify-center items-center text-white font-semibold">
                   Disel
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
@@ -49,11 +49,11 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-2/4"></div>
+            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
           </div>
 
           {/* Preem */}
-          <div>
+          <div className="relative">
             <div className="p-4 bg-[#6b7280] sm:rounded text-center sm:shadow-2xl">
               <img
                 src="/Preem_logo.png"
@@ -69,7 +69,7 @@ function App() {
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
-                <p className="flex justify-center items-center  text-white font-semibold">
+                <p className="flex justify-center items-center text-white font-semibold">
                   Disel
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
@@ -85,11 +85,11 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-2/4"></div>
+            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
           </div>
 
           {/* Circle K */}
-          <div className="col-span-2 sm:col-auto">
+          <div className="col-span-2 sm:col-auto relative">
             <div className="p-4 bg-[#6b7280] sm:rounded text-center sm:shadow-2xl">
               <img
                 src="/Circle_k_logo.png"
@@ -105,7 +105,7 @@ function App() {
                 </p>
               </div>
               <div className="flex flex-row p-2 mt-2 shadow-xl bg-[#7b8392] rounded">
-                <p className="flex justify-center items-center  text-white font-semibold">
+                <p className="flex justify-center items-center text-white font-semibold">
                   Disel
                 </p>
                 <p className="bg-yellow-500 p-2 rounded ml-auto font-orbitron font-semibold">
@@ -121,11 +121,15 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#6b7280] w-1/6 mx-auto h-2/4"></div>
+            <div className="bg-[#6b7280] w-1/6 mx-auto h-48 mt-[-10px] z-10"></div>
           </div>
         </div>
       </div>
-      <img src="/Grass_banner.png" alt="" className="w-full" />
+      <img
+        src="/Grass_banner.webp"
+        alt="grass"
+        className="absolute bottom-0 w-full h-32 md:h-40"
+      />
     </div>
   );
 }
